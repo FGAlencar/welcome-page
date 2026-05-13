@@ -2,11 +2,11 @@
   min-height: 100vh;
   background: linear-gradient(
     135deg,
-    #626464 0%,
-    #6e7070 25%,
-    #7e8080 50%,
-    #6e7070 75%,
-    #626464 100%
+    #888a8a 0%,
+    #939595 25%,
+    #a0a2a2 50%,
+    #939595 75%,
+    #888a8a 100%
   );
   background-size: 400% 400%;
   animation: diagonalSlide 9s ease-in-out infinite;
