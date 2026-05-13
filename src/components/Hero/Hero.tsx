@@ -8,7 +8,6 @@ export function Hero() {
       <div className={styles.content}>
         <div className={styles.card}>
           <LogoFade />
-          <h1 className={styles.title}>Felipe Alencar</h1>
           <p className={styles.subtitle}>Em construção</p>
         </div>
       </div>
