@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"cd /tmp && npm create vite@latest welcome-page-temp -- --template react 2>&1\",\"description\":\"Criar projeto Vite React em diretório temporário\",\"run_in_background\":false}",
+  "error": "Exit code 1\nnpx: installed 1 in 1.05s\nfile:///home/alencar/.npm/_npx/122637/lib/node_modules/create-vite/dist/index.js:1\nimport{createRequire as e}from\"node:module\";import t from\"node:fs\";import n from\"node:path\";import{fileURLToPath as r}from\"node:url\";import i,{stripVTControlCharacters as a,styleText as o}from\"node:util\";import s,{stdin as c,stdout as l}from\"node:process\";import\"node:readline\";import u from\"node:readline\";import\"node:tty\";var d=Object.create,f=Object.defineProperty,p=Object.ge...",
+  "timestamp": "2026-05-13T18:39:32.844Z",
+  "retry_count": 1
+}
