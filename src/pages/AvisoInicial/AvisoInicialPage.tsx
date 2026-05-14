@@ -4,11 +4,11 @@ import logoPreto from '../../assets/logo_preto.svg'
 import styles from './AvisoInicialPage.module.css'
 
 
-interface AvisoInicialPageProps{
+interface AvisoInicialProps{
   title?: string,
   mensagem:string
 }
-export function AvisoInicialPage({title, mensagem}: AvisoInicialPageProps) {
+export function AvisoInicialPage({title, mensagem}: AvisoInicialProps) {
   const [active, setActive] = useState(0);
   
   useEffect(() => {
