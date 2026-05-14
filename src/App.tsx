@@ -1,7 +1,7 @@
-import { Hero } from './components/Hero/Hero'
+import { AvisoInicialPage } from './pages/AvisoInicial/AvisoInicialPage'
 
 function App() {
-  return <Hero />
+  return <AvisoInicialPage mensagem='Em manutenção'/>
 }
 
 export default App
