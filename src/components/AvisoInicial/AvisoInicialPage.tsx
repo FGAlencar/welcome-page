@@ -6,9 +6,10 @@ import styles from './AvisoInicialPage.module.css'
 
 interface AvisoInicialProps{
   title?: string,
-  mensagem:string
+  mensagem: string,
+  enabled?: boolean
 }
-export function AvisoInicialPage({title, mensagem}: AvisoInicialProps) {
+export function AvisoInicialPage({title, mensagem, enabled}: AvisoInicialProps) {
   const [active, setActive] = useState(0);
   
   useEffect(() => {
@@ -18,6 +19,9 @@ export function AvisoInicialPage({title, mensagem}: AvisoInicialProps) {
     return () => clearInterval(interval)
   }, [])
 
+  if(!enabled){
+    return undefined
+  }
   return (
     <div className={`${styles.root}`}>
       <div className={styles.content}>
