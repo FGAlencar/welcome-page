@@ -23,7 +23,7 @@ export function AvisoInicialPage({title, mensagem, enabled}: AvisoInicialProps) 
     return undefined
   }
   return (
-    <div className={`${styles.root}`}>
+    <div className={styles.root} style={{ backdropFilter: 'blur(20px) saturate(0%)', WebkitBackdropFilter: 'blur(20px) saturate(0%)' }}>
       <div className={styles.content}>
         <div className={styles.card}>
           <div className={styles.wrapper}>
